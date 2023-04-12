@@ -1,0 +1,454 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Pinewood Teleports {advanced}", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Teleports",
+	Icon = "rbxassetid://8763582315",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Escape Silos",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(749, 449.165619, -333, 0.017775435, 1.00554495e-07, -0.999841988, 5.433429e-08, 1, 1.01536351e-07, 0.999841988, -5.61305562e-08, 0.017775435)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hall",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-123, 470.784393, 20, -0.0241688937, -6.09659523e-09, -0.999707878, -1.34217193e-09, 1, -6.0659282e-09, 0.999707878, 1.19517307e-09, -0.0241688937)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Nuclear Train",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-749.257324, 446.381073, -20.0091858, -0.0274674296, 0, 0.999622703, 0, 1, 0, -0.999622703, 0, -0.0274674296)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fuel Train & Coolant",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-673.283386, 449.199829, 59.9531136, -0.0031739457, -1.50661013e-08, 0.999994934, -3.33420118e-08, 1, 1.49603512e-08, -0.999994934, -3.32943593e-08, -0.0031739457)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Core Station",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-557.562927, 451.199951, -123.515678, -0.0293524265, -5.109003e-08, 0.999569118, 7.52515348e-08, 1, 5.33218198e-08, -0.999569118, 7.67842323e-08, -0.0293524265)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Computer Science Labs",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-424.170319, 502.181244, -303.401642, -0.718139052, -1.09683196e-09, -0.695899665, -4.91365384e-08, 1, 4.91306942e-08, 0.695899665, 6.94767692e-08, -0.718139052)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Emergency Team HQ",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-67.9882812, 502.196411, -296.37558, -0.00192877383, -8.12021783e-10, 0.999998152, 4.83908416e-08, 1, 9.05358455e-10, -0.999998152, 4.83924971e-08, -0.00192877383)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Reactor Suit + Decontamination",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-179.983276, 472.766571, 190.418289, -0.998432815, 1.90540064e-08, 0.0559640117, 1.61365055e-08, 1, -5.25836086e-08, -0.0559640117, -5.15981355e-08, -0.998432815)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Computer Code Bridge",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-278.926392, 470.029205, -76.7061844, 0.99999994, 5.65458436e-08, 0.000276486797, -5.65498404e-08, 1, 1.4458343e-08, -0.000276486797, -1.44739776e-08, 0.99999994)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Computer Code",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-272.040863, 472.465393, -164.521561, 0.99999994, 4.88065011e-09, -0.000262269547, -4.87973617e-09, 1, 3.4850407e-09, 0.000262269547, -3.48376084e-09, 0.99999994)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Pinewood Spawn",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-276.311218, 539, 32.1676216, 0.999974072, 9.35009847e-09, 0.00720002269, -9.52185442e-09, 1, 2.38206681e-08, -0.00720002269, -2.38886066e-08, 0.999974072)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Bubba The Pengiun!",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-226.546463, 533.199646, 56.2961617, 0.256582886, -2.84016117e-08, -0.966522217, -2.13708375e-08, 1, -3.50586902e-08, 0.966522217, 2.96508507e-08, 0.256582886)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Pinewood Shop",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-143.252747, 538.998657, 67.219368, 0.00839025155, -6.71431764e-08, -0.999964774, 6.76487986e-08, 1, -6.65779325e-08, 0.999964774, -6.70878109e-08, 0.00839025155)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sector D",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(14.9773722, 404.380554, -337.418884, 0.99996525, -5.29842614e-09, 0.00833936967, 5.31915223e-09, 1, -2.46319742e-09, -0.00833936967, 2.50747023e-09, 0.99996525)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sector G",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(14.978755, 404.394714, -498.88504, 0.999938548, -1.19139241e-08, 0.0110886479, 1.09676099e-08, 1, 8.54015738e-08, -0.0110886479, -8.52747064e-08, 0.999938548)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Coolant Sector",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-48.9885368, 450.132477, -759.829102, -0.323687196, 9.72370131e-08, -0.946164131, 7.80637137e-08, 1, 7.60637491e-08, 0.946164131, -4.92402243e-08, -0.323687196)
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Suits",
+	Icon = "rbxassetid://963179295",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Hazmat Suit",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-83.4708481, 502.483215, -282.298584, 0.0201808251, -2.80050259e-08, -0.999796331, -9.08483173e-08, 1, -2.98444967e-08, 0.999796331, 9.14321063e-08, 0.0201808251)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fire Suit",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-83.0151138, 502.510376, -295.529602, -0.0302728321, -1.07651914e-07, -0.9995417, -1.20635479e-09, 1, -1.07664739e-07, 0.9995417, -2.05351469e-09, -0.0302728321)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Medical Suit",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-83.9598999, 502.481995, -309.17157, -0.00735288765, -2.66656901e-08, -0.999972939, -1.36155718e-08, 1, -2.65662958e-08, 0.999972939, 1.34198643e-08, -0.00735288765)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spaceman Suit",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-368.223877, 473.108154, 212.177475, -0.0263606459, -1.20739809e-08, -0.999652505, 9.49365919e-09, 1, -1.2328524e-08, 0.999652505, -9.81534853e-09, -0.0263606459)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove Suit",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-74.7628479, 502.403809, -267.313995, 0.9993577, 4.09039949e-08, 0.0358361416, -4.14800709e-08, 1, 1.53318513e-08, -0.0358361416, -1.68084888e-08, 0.9993577)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove Suit 2",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-353.189117, 472.997955, 227.999069, 0.885624945, 2.70251306e-08, -0.464401215, -2.00958414e-08, 1, 1.98702157e-08, 0.464401215, -8.265026e-09, 0.885624945)
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Vehicles",
+	Icon = "rbxassetid://9033642906",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Spawn Pet Response Vehicle!",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-89.390564, 502.184509, -322.704895, -0.0222265478, -8.19746333e-08, 0.999752939, 1.95176231e-08, 1, 8.24288051e-08, -0.999752939, 2.13449098e-08, -0.0222265478)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Buggy",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1097.95813, 489.178284, 671.07312, 0.720131457, -4.11248955e-08, -0.693837702, 7.56986474e-09, 1, -5.14149043e-08, 0.693837702, 3.17732329e-08, 0.720131457)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Truck",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(294.033142, 424.765594, 317.206146, 0.804843068, 5.13635854e-08, -0.59348768, -4.64131631e-08, 1, 2.36033078e-08, 0.59348768, 8.54868265e-09, 0.804843068)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn Forklift",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(154.935043, 429.591156, 152.456177, 0.989386022, 2.88029849e-08, -0.145310923, -2.41178082e-08, 1, 3.40040565e-08, 0.145310923, -3.01385583e-08, 0.989386022)
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Coolants",
+	Icon = "rbxassetid://1348574603",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Coolant Tanks",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(116.404594, 449.832916, -719.373596, 0.99960953, 1.56045079e-08, 0.0279427208, -1.55011808e-08, 1, -3.91445187e-09, -0.0279427208, 3.47977802e-09, 0.99960953)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Coolant Production System",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(148.62764, 412.253967, -996.84082, 0.999532223, 2.51705257e-09, 0.0305829458, -2.6810667e-09, 1, 5.32192068e-09, -0.0305829458, -5.40142642e-09, 0.999532223)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Core Power!",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(73.9443665, 466.5755, 13.9477797, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Items",
+	Icon = "rbxassetid://5777075128",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Radiation Detector",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-328.387054, 471.821655, 235.359802, -0.99985981, 4.53149163e-08, 0.016745273, 4.54513867e-08, 1, 7.76928477e-09, -0.016745273, 8.52929105e-09, -0.99985981)
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Pb Medi-Stations",
+	Icon = "rbxassetid://3208063303",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "PB MEDI 1",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-321.153168, 472.889709, -15.2792511, -0.999865353, -7.35576378e-10, -0.0164089501, -8.03412836e-10, 1, 4.12752232e-09, 0.0164089501, 4.14015e-09, -0.999865353)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "PB MEDI 2",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()-25.5957031, 502.183319, -199.351517, 0.0141746178, 1.26228299e-08, -0.999899507, 8.61678515e-08, 1, 1.38456171e-08, 0.999899507, -8.6355449e-08, 0.0141746178
+  	end    
+})
+
+Tab:AddButton({
+	Name = "PB MEDI 3",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-56.6682625, 502.200928, -267.031677, -0.999994695, -2.32023112e-08, 0.00325202476, -2.32513937e-08, 1, -1.50549315e-08, -0.00325202476, -1.51304675e-08, -0.999994695)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "PB MEDI 4",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(21.0281773, 429.573273, 225.03688, -0.704047918, -7.89044437e-12, 0.710152507, 1.01516671e-08, 1, 1.00755129e-08, -0.710152507, 1.43028753e-08, -0.704047918)
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Reactor core",
+	Icon = "rbxassetid://12684715885",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Reactor core hatch 1",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-331.015594, 472.811523, -164.334717, 0.999876261, 3.91782002e-08, 0.015730463, -3.98403159e-08, 1, 4.17779376e-08, -0.015730463, -4.23994742e-08, 0.999876261)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Reactore Core Hatch 2 access",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-280.121887, 431.554169, -155.925781, -0.999800503, -5.38013332e-08, 0.0199746992, -5.44002035e-08, 1, -2.94379721e-08, -0.0199746992, -3.05187271e-08, -0.999800503)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Reactor Core Drop",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-282.023041, 366.97818, -176.75914, 0.999945045, 5.99809553e-08, -0.0104828915, -6.06208417e-08, 1, -6.07234156e-08, 0.0104828915, 6.13555642e-08, 0.999945045)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Reactor 1",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-282.344299, 282.784546, -199.880661, 0.999389529, 5.12433784e-09, -0.0349363647, -5.51721513e-09, 1, -1.11490985e-08, 0.0349363647, 1.1335044e-08, 0.999389529)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Reactor 2",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-245.798233, 282.800293, -224.369919, 0.827714205, -1.60043605e-08, 0.561149895, -4.2124082e-09, 1, 3.47340894e-08, -0.561149895, -3.11136894e-08, 0.827714205)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Reactor 3",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-206.425842, 261.966888, -282.962067, -0.039672032, -8.65104326e-08, 0.999212742, 2.61947108e-09, 1, 8.668259e-08, -0.999212742, 6.05628347e-09, -0.039672032)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Reactor 4",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-282.790375, 282.799774, -364.112915, -0.999307394, 7.2700395e-08, -0.0372118279, 7.35841041e-08, 1, -2.23785115e-08, 0.0372118279, -2.51012118e-08, -0.999307394)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Reactor 5",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-359.471527, 261.975586, -283.092346, 0.00878020562, -2.24455636e-08, -0.999961436, 1.05744125e-08, 1, -2.23535803e-08, 0.999961436, -1.0377736e-08, 0.00878020562)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Reactor 6",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-318.418182, 282.799988, -224.49025, 0.957627475, 4.04026146e-08, -0.288009852, -5.61509488e-08, 1, -4.6418819e-08, 0.288009852, 6.0623961e-08, 0.957627475)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Reactor Power Control",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-258.204346, 226.232101, -501.283447, 0.968847871, -6.68125537e-08, -0.247656539, 8.11693681e-08, 1, 4.77605653e-08, 0.247656539, -6.63748452e-08, 0.968847871)
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Fan Control",
+	Icon = "rbxassetid://1348574603",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Fan Control Outside",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-445.757935, 709.159546, -272.320587, 0.0203380156, 1.51723123e-09, 0.999793172, -1.26716397e-08, 1, -1.25977584e-09, -0.999793172, -1.26433974e-08, 0.0203380156)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fan Control Inside",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-461.224457, 711.354858, -308.408234, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Main Control Room",
+	Icon = "rbxassetid://7932903582",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Control Room",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-215, 725.397705, -184, -0.0222225469, -1.88076132e-09, 0.999753058, 9.57432036e-08, 1, 4.00940925e-09, -0.999753058, 9.58086588e-08, -0.0222225469)
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Launch Control Room",
+	Icon = "rbxassetid://6291203666",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Rocket Control Room",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(929.888123, 449.219269, -418.399628, 0.999963701, -7.75596973e-08, 0.00851798616, 7.73099629e-08, 1, 2.96470173e-08, -0.00851798616, -2.89874169e-08, 0.999963701)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Rocket 1",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(814.171082, 459.208466, -648.376221, -0.702104926, -1.14016681e-08, 0.712073445, -1.63247353e-08, 1, -8.42736575e-11, -0.712073445, -1.16835794e-08, -0.702104926)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Rocket 2",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(814.162781, 459.180786, -489.679596, 0.706758201, -5.66762672e-08, 0.707455218, -4.01525746e-09, 1, 8.41241672e-08, -0.707455218, -6.22960599e-08, 0.706758201)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Rocket 3",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(923.799072, 459.208496, -648.041077, -0.7396577, -4.88571033e-08, 0.672983229, -9.47473211e-08, 1, -3.15364197e-08, -0.672983229, -8.70895178e-08, -0.7396577)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Rocket 4",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(923.799072, 459.208496, -648.041077, -0.7396577, 4.90416383e-08, 0.672983229, 9.50957713e-08, 1, 3.16451896e-08, -0.672983229, 8.7404473e-08, -0.7396577)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Rocket 5",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1034.22046, 459.206635, -648.339844, -0.713263154, 7.46012887e-08, 0.700896382, 4.64489176e-08, 1, -5.9168503e-08, -0.700896382, -9.64683444e-09, -0.713263154)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Rocket 6",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1033.84631, 459.208496, -490.339844, 0.700576723, 4.49642634e-08, 0.713577092, -7.52400524e-08, 1, 1.08568061e-08, -0.713577092, -6.12956015e-08, 0.700576723)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Rocket 7",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1144.19153, 459.197815, -648.123962, -0.695911765, -1.53363766e-10, 0.71812731, -1.9463029e-09, 1, -1.67253256e-09, -0.71812731, -2.56162824e-09, -0.695911765)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Rocket 8",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1143.79761, 459.201141, -490.377014, 0.719011307, 6.93257007e-10, 0.694998324, -2.32589876e-08, 1, 2.30651178e-08, -0.694998324, -3.2749039e-08, 0.719011307)
+  	end    
+})
